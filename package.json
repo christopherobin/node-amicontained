@@ -1,0 +1,28 @@
+{
+  "name": "amicontained",
+  "version": "1.0.0",
+  "description": "Find out what container runtime is being used as well as features available. Ported from the Go version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Christophe Robin <crobin@nekoo.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "mock-fs": "^4.4.1"
+  },
+  "dependencies": {
+    "async": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christopherobin/node-amicontained.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christopherobin/node-amicontained/issues"
+  }
+}
